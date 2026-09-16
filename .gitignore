@@ -1,4 +1,4 @@
-# 제출 요구: w03-lsh/out/ 커밋 (원본 랩의 '*/out/' 무시 규칙은 제거)
+# 제출 요구: out/ 커밋 (원본 랩의 '*/out/' 무시 규칙은 제거)
 
 # python
 __pycache__/
@@ -11,9 +11,8 @@ __pycache__/
 **/run_task2.log
 **/bench_DUP.py
 
-# 사용 안 하는 week 래퍼 폴더(내용은 루트 wXX-* 와 중복) — 저장소에서 제외
-week03 submission/
-week04 submission/
-week05 submission/
-week06 submission/
-week07 submission/
+# 루트에 남은 옛 복사본(내용은 'week03 submission/' 아래로 이동됨) — 중복 방지용 제외
+/w03-lsh/
+/check.py
+/Dockerfile
+/requirements.txt
